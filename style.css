@@ -88,28 +88,3 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
-/* Lightbox image */
-.lightbox-content {
-  max-width: 90%;
-  max-height: 80%;
-  border-radius: 10px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
-}
-
-/* Close button */
-.lightbox .close {
-  position: absolute;
-  top: 20px;
-  right: 40px;
-  color: #fff;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.lightbox .close:hover {
-  color: #ff4444;
-}
-
