@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gad ❤️💕 Portfolio</title>
+  <title>About This Website | Gad ❤️💕</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
@@ -29,23 +29,14 @@
       border: 4px solid #fff; margin-bottom: 20px;
     }
     header h1 { font-size: 2.2rem; margin: 10px 0; }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 20px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .project {
+    section { padding: 30px 20px; }
+    .box {
       background: rgba(255, 255, 255, 0.1);
-      padding: 20px;
       border-radius: 12px;
-      transition: transform 0.3s ease, background 0.3s ease;
-    }
-    .project:hover {
-      background: rgba(255, 255, 255, 0.2);
-      transform: translateY(-5px);
+      padding: 20px;
+      max-width: 900px;
+      margin: 20px auto;
+      backdrop-filter: blur(6px);
     }
     footer {
       margin-top: 40px;
@@ -54,36 +45,53 @@
       background: rgba(0,0,0,0.3);
       backdrop-filter: blur(6px);
     }
-    a { color: #fff; text-decoration: underline; }
+    a.back {
+      display: inline-block;
+      margin-top: 20px;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      background: rgba(255,255,255,0.2);
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    a.back:hover { background: rgba(255,255,255,0.4); }
   </style>
 </head>
 <body>
   <header>
     <img src="profile.jpeg" alt="Profile Photo">
-    <h1>Gad ❤️💕 Portfolio</h1>
+    <h1>About This Website</h1>
   </header>
 
-  <section class="projects">
-    <div class="project">
-      <i class="fa-solid fa-code fa-2x"></i>
-      <p><strong>Web Design Project</strong><br>Beautiful and responsive website design examples.</p>
-    </div>
+  <section class="box">
+    <p>
+      Welcome to my digital space — a creative reflection of who I am and what I stand for.
+      This website was carefully designed and hand-coded by me, <strong>Gad ❤️💕</strong>,
+      using HTML, CSS, and JavaScript.
+    </p>
 
-    <div class="project">
-      <i class="fa-solid fa-mobile-screen fa-2x"></i>
-      <p><strong>Mobile App UI</strong><br>Simple and modern user interface concepts.</p>
-    </div>
+    <p>
+      Every animation, gradient, and section here represents growth, creativity,
+      and dedication. I wanted to create something clean, bold, and meaningful —
+      a place where my story, discipline, and vision could live online.
+    </p>
 
-    <div class="project">
-      <i class="fa-solid fa-database fa-2x"></i>
-      <p><strong>Database Systems</strong><br>Backend data management and API projects.</p>
-    </div>
+    <p>
+      My portfolio isn’t just about skills or projects. It’s about character — how I value
+      <strong>Discipline over Luck</strong> and <strong>Respect over Attention</strong>.
+      This site is a reflection of that mindset.
+    </p>
 
-    <div class="project">
-      <i class="fa-solid fa-info-circle fa-2x"></i>
-      <p><strong>About This Website</strong><br>
-      <a href="about-website.html">Read More</a></p>
-    </div>
+    <p>
+      Thank you for visiting, reading, and exploring my journey.  
+      The best is yet to come 🚀
+    </p>
+
+    <p class="signature">— Gad 💻✨</p>
+
+    <a href="index.html" class="back">⬅ Back to Portfolio</a>
   </section>
 
   <footer>
